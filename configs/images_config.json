@@ -1,0 +1,16 @@
+{
+  "first_image_path": "images/what_kind.jpg",
+  "second_image_path": "images/we_told.jpg",
+  "first_rebel_image_path": "images/wild_rebel.jpg",
+  "first_gift_image_path": "images/gift_guitar.png",
+  "first_gift_ratio": 20,
+  "second_rebel_image_path": "images/sweet_rebel_1.jpg",
+  "second_gift_image_path": "images/sweet_gift.jpg",
+  "second_gift_ratio": 10,
+  "third_rebel_image_path": "images/visio_rebel.jpg",
+  "third_gift_image_path": "images/gift_stamp.png",
+  "third_gift_ratio": 20,
+  "fourth_rebel_image_path": "images/full_rebel_1.jpg",
+  "fourth_gift_image_path": "images/gift_all.png",
+  "fourth_gift_ratio": 50
+}
