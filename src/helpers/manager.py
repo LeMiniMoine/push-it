@@ -16,11 +16,11 @@ from loader import TimingsLoader
 
 class Manager:
     def __init__(self):
-        self.config = ConfigLoader()
+        self.__config = ConfigLoader()
         self.screen = FullScreen()
-        self.images = ImagesLoader(self.config.images, self.screen.width, self.screen.height)
-        self.timings = TimingsLoader(self.config.timings)
-        self.sounds = SoundsLoader(self.config.sounds)
+        self.images = ImagesLoader(self.__config.images, self.screen.width, self.screen.height)
+        self.timings = TimingsLoader(self.__config.timings)
+        self.sounds = SoundsLoader(self.__config.sounds)
 
 
 def set_first_screen(screen, images):

@@ -15,9 +15,9 @@ def main():
 
     while running:
         event = manager.check_for_events()
-        if event == manager.K_F1:
+        if event == pygame.K_F1:
             manager.launch_animation(mgr.screen, mgr.images, mgr.timings, mgr.sounds)
-        elif event == manager.MOUSEBUTTONDOWN:
+        elif event == pygame.MOUSEBUTTONDOWN:
             running = False
 
     manager.quit_script()
