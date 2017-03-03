@@ -1,0 +1,16 @@
+{
+  "first_image_path": "resources/images/1.whatkindofrebelareyou.jpg",
+  "second_image_path": "resources/images/2.wetoldyounottopushthebutton.jpg",
+  "first_rebel_image_path": "resources/images/3a.wildrebel.jpg",
+  "first_gift_image_path": "resources/images/4a.youwon_airguitar.jpg",
+  "first_gift_ratio": 20,
+  "second_rebel_image_path": "resources/images/3b.sweetrebel.jpg",
+  "second_gift_image_path": "resources/images/4b.youwon_chocs.jpg",
+  "second_gift_ratio": 10,
+  "third_rebel_image_path": "resources/images/3c.visionaryrebel.jpg",
+  "third_gift_image_path": "resources/images/4c.youwon_stamps.jpg",
+  "third_gift_ratio": 20,
+  "fourth_rebel_image_path": "resources/images/3d.fullonrebel.jpg",
+  "fourth_gift_image_path": "resources/images/4d.youwon_kit.jpg",
+  "fourth_gift_ratio": 50
+}
