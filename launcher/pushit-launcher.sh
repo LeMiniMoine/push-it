@@ -3,6 +3,7 @@
 # navigate to Pi main user directory, find script, execute it, back to pi user directory
 
 cd ~
-script_path=$(find ~ -type f -name pushit.py)
-python3 ${script_path}
+dir_path=$(find ~ -type d -name pushit)
+cd ${dir_path}
+python3 src/pushit.py
 cd ~

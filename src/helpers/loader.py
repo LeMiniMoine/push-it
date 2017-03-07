@@ -1,4 +1,3 @@
-import os
 import json
 
 from pygame import display
@@ -86,4 +85,4 @@ def load_image_scaled(path, screen_width, screen_height):
 
 
 def read_config(file_path):
-    return json.load(open(os.getcwd() + '/' + file_path))
+    return json.load(open(file_path))
