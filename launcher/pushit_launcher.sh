@@ -1,5 +1,5 @@
 #!/bin/sh
-# pushit-launcher.sh
+# pushit_launcher.sh
 # navigate to Pi main user directory, find script, execute it, back to pi user directory
 
 cd ~
