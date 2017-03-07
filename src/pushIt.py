@@ -1,7 +1,7 @@
 import pygame
 from pygame import mixer
 
-import manager
+import helpers.manager as manager
 from manager import Manager
 
 pygame.init()

@@ -7,11 +7,11 @@ from pygame import KEYDOWN
 from pygame import MOUSEBUTTONDOWN
 from random import randint
 
-from loader import ConfigLoader
-from loader import FullScreen
-from loader import ImagesLoader
-from loader import SoundsLoader
-from loader import TimingsLoader
+from helpers.loader import ConfigLoader
+from helpers.loader import FullScreen
+from helpers.loader import ImagesLoader
+from helpers.loader import SoundsLoader
+from helpers.loader import TimingsLoader
 
 
 class Manager:
