@@ -4,8 +4,9 @@ from pygame import mixer
 import helpers.manager as manager
 from helpers.manager import Manager
 
-pygame.init()
+mixer.pre_init(44100, -16, 2, 2048)
 mixer.init()
+pygame.init()
 
 
 def main():
