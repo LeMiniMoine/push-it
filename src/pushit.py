@@ -1,8 +1,14 @@
+import os
 import pygame
 from pygame import mixer
 
 import helpers.manager as manager
 from helpers.manager import Manager
+
+abspath = os.path.abspath(__file__)
+dname = os.path.dirname(abspath)
+os.chdir(dname)
+os.chdir(os.pardir)
 
 mixer.pre_init(44100, -16, 2, 2048)
 mixer.init()
